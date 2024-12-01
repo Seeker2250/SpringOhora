@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="kr.ohora.www.persistence.OrderMapper"><!-- 패키지들이랑 interface 이름 -->
+
+	 <select id="selectUserInfo" resultType="kr.ohora.www.domain.user.UserDTO">
+      SELECT 
+       USER_ID as userId,
+       MEM_ID as memId,
+       AUTH_ID as authId,
+       USER_LOGIN_ID as userLoginId,
+       USER_PASSWORD as userPassword,
+       USER_NAME as userName,
+       USER_EMAIL as userEmail,
+       USER_TEL as userTel,
+       USER_BIRTH as userBirth,
+       USER_POINT as userPoint,
+       USER_SMSAGREE as userSmsAgree,
+       USER_JOINDATE as userJoindate
+  	 FROM o_user 
+   	 WHERE user_id = #{userId}
+    </select>
+    
+    <select id="selectAddrList" resultType="kr.ohora.www.domain.addr.AddrDTO">
+        SELECT 
+        	ADDR_ID as addrId,
+	        USER_ID as userId,
+	        ADDR_NICK as addrNick,
+	        ADDR_NAME as addrName,
+	        ADDR_HTEL as addrHtel,
+	        ADDR_TEL as addrTel,
+	        ADDR_ADDRESS_MAIN as addrAddressMain,
+	        ADDR_ADDRESS_DETAIL as addrAddressDetail,
+	        ADDR_ZIPCODE as addrZipcode,
+	        ADDR_MAIN as addrMain
+        FROM o_address
+        WHERE user_id = #{userId}
+    </select>
+    
+    <select id="selectProductList" resultType="kr.ohora.www.domain.product.ProductDTO">
+        SELECT  
+        	PDT_ID as pdtId,
+    	    PDT_NAME as pdtName,
+     	    PDT_AMOUNT as pdtAmount,
+     	    PDT_DISCOUNT_RATE as pdtDiscountRate,
+     	    PDT_IMG_URL as pdtImgUrl FROM o_product 
+        WHERE pdt_id IN 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </select>
+	
+	
+</mapper>

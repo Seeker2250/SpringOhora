@@ -1,917 +1,1152 @@
-!SESSION 2024-12-01 00:15:47.521 -----------------------------------------------
+!SESSION 2024-12-01 15:38:10.641 -----------------------------------------------
 eclipse.buildId=3.9.18.202109140905-RELEASE-e421
-java.version=11
+java.version=11.0.23
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.springsource.sts.ide
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
 
-This is a continuation of log file C:\JoonWorkspace\SpringOhora\.metadata\.bak_0.log
-Created Time: 2024-12-01 01:27:21.164
+!ENTRY org.eclipse.jface 2 0 2024-12-01 15:38:29.280
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-01 15:38:29.280
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f63a6f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a577564,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:27:21.166
+!ENTRY org.eclipse.ui 2 2 2024-12-01 15:38:32.523
+!MESSAGE org.eclipse.jdt.junit.ResultView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2024-12-01 15:38:32.525
+!MESSAGE org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2024-12-01 15:38:32.526
+!MESSAGE org.eclipse.contribution.xref.ui.views.XReferenceView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-01 15:38:41.219
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Victor'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.vwmare.vfabric.ide.eclipse.tcserver.core 4 0 2024-12-01 15:38:56.644
+!MESSAGE Error creating server instance with command:
+ "C:\Tools\spring-tool-suite-3.9.18.RELEASE-e4.21.0-win32-x86_64\sts-bundle\pivotal-tc-server\developer-4.1.0.RELEASE\tcserver.bat create base-instance -t base --force -v 9.0.33.A.RELEASE". Check access permission for the directory C:/Tools/spring-tool-suite-3.9.18.RELEASE-e4.21.0-win32-x86_64/sts-bundle/pivotal-tc-server/developer-4.1.0.RELEASE and its files and subdirectories.
+!SUBENTRY 1 com.vwmare.vfabric.ide.eclipse.tcserver.core 4 0 2024-12-01 15:38:56.644
+!MESSAGE The instance creation command failed and returned code 1
+!SUBENTRY 1 com.vwmare.vfabric.ide.eclipse.tcserver.core 4 0 2024-12-01 15:38:56.644
+!MESSAGE Output of the instance creation command:
+'create' command failed. An unexpected error occurred while attempting to validate tc Runtime Version 9.0.33.A.RELEASE: repo.pivotal.io
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:39:57.453
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:27:21.177
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:39:57.579
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:27:21.380
-!MESSAGE Internal Error
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:40:13.736
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:40:13.799
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:40:32.045
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:40:32.082
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:40:43.153
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:40:43.158
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface 2 0 2024-12-01 15:40:44.269
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-01 15:40:44.269
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1461be0c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d426231,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:49:22.901
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:49:22.916
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:51:26.725
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:51:26.737
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:51:46.204
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:51:46.217
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:54:27.865
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:54:27.883
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:54:32.186
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:54:32.198
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:56:06.339
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:56:06.352
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:56:44.511
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:56:44.522
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:56:50.222
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:56:50.233
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:56:53.966
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:56:53.976
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:56:57.207
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:56:57.236
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:57:48.625
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:57:48.638
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:57:53.254
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:57:53.290
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:57:58.823
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 15:57:58.864
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:03:15.497
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:03:15.534
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:04:04.605
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:04:04.620
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:04:48.488
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:04:48.502
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:08:05.660
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:08:05.676
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:08:14.676
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:08:14.688
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:08:19.867
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:08:19.918
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:11:02.429
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:11:02.441
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:11:10.295
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:11:10.309
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:22:32.482
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:22:32.530
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:23:06.255
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:23:06.272
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:23:25.338
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:23:25.349
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:23:45.827
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:23:45.845
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:24:02.884
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:24:02.909
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:38:17.835
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:38:17.853
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:38:28.592
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:38:28.604
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:38:59.145
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:38:59.161
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:39:13.752
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:39:13.765
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-12-01 16:40:25.635
+!MESSAGE Execution exception for: ParameterizedCommand(Command(org.eclipse.ui.edit.paste,Paste,
+		Paste from the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a87cc81,
+		,,true),null) in 
+	context chain: WorkbenchContext -> TrimmedWindowImpl (IDEWindow) Context -> PerspectiveImpl (com.springsource.sts.ide.perspective) Context -> PartImpl (org.eclipse.jdt.ui.PackageExplorer) Context -> popup:org.eclipse.jdt.ui.PackageExplorer
 !STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:27:21.383
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesFromBeansConfigSets(AopReferenceModelBuilderJob.java:412)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:370)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:27:31.866
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:27:31.870
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:27:32.028
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+org.eclipse.core.commands.ExecutionException: While executing the action, an exception occurred
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:126)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor142.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1270)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1059)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1069)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1111)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1107)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1536)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4875)
+	at org.eclipse.swt.widgets.Tree.WM_CHAR(Tree.java:5984)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4753)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:5979)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4958)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+Caused by: java.lang.IllegalArgumentException: 
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:50)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.PasteAction$JavaElementAndResourcePaster.paste(PasteAction.java:1359)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.PasteAction.run(PasteAction.java:269)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	... 54 more
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:27:32.030
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesFromBeansConfigSets(AopReferenceModelBuilderJob.java:412)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:370)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:40:51.168
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:40:51.187
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:41:44.368
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:41:44.379
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:41:58.803
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:41:58.813
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:42:41.668
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:42:41.683
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:43:37.187
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:43:37.322
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:47:40.739
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:47:40.770
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:47:54.356
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:47:54.392
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:51:02.652
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:51:02.715
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:54:33.529
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:54:33.556
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:54:46.941
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:54:46.958
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:54:59.411
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:54:59.425
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:55:08.227
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:55:08.289
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:55:22.382
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 16:55:22.399
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:00:40.299
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:00:40.319
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:00:57.900
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:00:57.913
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:01:17.267
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:01:17.280
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:01:22.144
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:01:22.156
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:01:51.978
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:01:51.989
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:03:19.233
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:03:19.247
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:04:39.827
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:04:39.839
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:07:07.157
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:07:07.169
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:27:48.962
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:27:48.978
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:28:04.701
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:28:04.738
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:28:12.552
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:28:12.565
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:28:56.791
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:28:56.805
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:29:01.817
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:29:01.829
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:29:19.274
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:29:19.286
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:29:24.930
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:29:24.942
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:29:51.903
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:29:51.927
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:29:59.916
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:29:59.927
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:30:07.174
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:30:07.186
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:30:22.617
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:30:22.636
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:30:25.015
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:30:25.024
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:30:32.096
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:30:32.124
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:30:42.781
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:30:42.794
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:30:49.156
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:30:49.189
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:32:33.929
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:32:33.948
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:34:47.419
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:34:47.436
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:38:10.277
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:38:10.296
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:39:24.813
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:39:24.830
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:41:42.392
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:41:42.404
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:42:00.047
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 17:42:00.058
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:03:58.689
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:03:58.744
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:04:55.344
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:04:55.413
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:28:00.845
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:06:34.668
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:28:00.849
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:06:34.686
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:29:24.935
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:07:31.618
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:29:24.940
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:07:31.631
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:29:47.495
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:07:53.596
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:29:47.501
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:07:53.608
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:31:13.523
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:09:24.579
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:31:13.528
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:09:24.593
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:32:06.031
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:09:45.063
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:32:06.036
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:09:45.073
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:35:16.471
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:10:01.736
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:35:16.476
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:10:01.747
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:35:22.017
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:10:34.340
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:35:22.023
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:10:34.359
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:35:41.424
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:28:07.828
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:35:41.429
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:28:07.852
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:35:46.119
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:30:02.664
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:35:46.123
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:30:02.676
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:36:10.687
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:31:08.693
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:36:10.690
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:31:08.710
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:36:50.681
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:31:50.239
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:36:50.686
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:31:50.256
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:37:09.454
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:32:38.069
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:37:09.458
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:32:38.088
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:37:20.665
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:32:50.154
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:37:20.669
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:32:50.191
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:37:23.996
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:33:01.924
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:37:24.000
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:33:01.951
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:38:12.558
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:33:15.364
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:38:12.570
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:33:15.377
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:38:12.809
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:33:42.260
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:33:42.272
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:33:52.719
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:33:52.763
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:34:50.938
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:34:50.953
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:39:17.221
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:39:17.253
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:40:33.633
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:40:33.645
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:42:36.117
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:42:36.127
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:42:57.578
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:42:57.590
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:44:01.246
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:44:01.259
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:44:23.438
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:44:23.451
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:44:32.219
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:44:32.231
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:44:40.858
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:44:40.870
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:44:52.072
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:44:52.083
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:45:33.391
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:45:33.402
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:45:45.609
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:45:45.620
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:46:18.240
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:46:18.251
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:47:00.341
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:47:00.353
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:47:02.912
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:47:02.924
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:48:37.293
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:48:37.310
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:50:11.164
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:50:11.277
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:50:40.579
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:50:40.652
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:50:59.983
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:50:59.998
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:54:01.159
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:54:01.175
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:38:12.811
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesFromBeansConfigSets(AopReferenceModelBuilderJob.java:412)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:370)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:54:47.109
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:54:47.121
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:55:26.462
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:55:26.473
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:56:25.862
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:56:25.882
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:56:43.026
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:56:43.058
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:56:49.271
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:56:49.285
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:59:56.390
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 18:59:56.459
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:00:16.349
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:00:16.360
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:01:04.097
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:01:04.109
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:02:58.412
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:02:58.447
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:14:11.499
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:14:11.517
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:17:02.810
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:17:02.825
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:17:26.991
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:17:27.005
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:20:42.083
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:20:42.113
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:21:04.382
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:21:04.401
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:21:10.509
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:21:10.568
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:24:04.413
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:24:04.461
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:24:40.256
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:24:40.270
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:24:42.483
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:24:42.495
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:24:48.627
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:24:48.639
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:25:06.276
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:38:16.021
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:25:06.289
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:38:16.025
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:25:08.555
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:47:53.295
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:25:08.569
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:47:53.300
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:25:21.639
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:47:55.360
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:25:21.652
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:47:55.367
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:26:14.839
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:47:55.582
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesFromBeansConfigSets(AopReferenceModelBuilderJob.java:412)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:370)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:26:14.852
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:47:55.585
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:33:18.203
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:48:08.265
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:33:18.214
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:48:08.281
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:34:07.109
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:48:08.527
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:34:07.127
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:48:08.532
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesFromBeansConfigSets(AopReferenceModelBuilderJob.java:412)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:370)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:34:26.405
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:48:29.111
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:34:26.416
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:48:29.117
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:35:02.209
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:48:32.901
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:35:02.218
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:48:32.906
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:35:21.974
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:48:37.101
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:35:21.982
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:48:37.110
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:35:49.446
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:49:05.303
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:35:49.457
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:49:05.308
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:35:59.361
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:49:06.683
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:35:59.370
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:49:06.688
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:36:21.273
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:49:06.836
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesFromBeansConfigSets(AopReferenceModelBuilderJob.java:412)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:370)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:36:21.284
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:49:06.838
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:36:39.018
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:49:08.812
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:36:39.025
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:49:08.817
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:36:47.657
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:49:33.032
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:36:47.666
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:49:33.038
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:36:53.716
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:49:34.455
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:36:53.729
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:49:34.460
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:37:17.292
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:50:10.412
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:37:17.300
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:50:10.429
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:37:51.476
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:50:23.689
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:37:51.487
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:50:23.697
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:38:17.411
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:50:27.491
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:38:17.420
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:50:27.497
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:38:41.274
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:50:27.658
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:38:41.283
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:50:27.660
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesFromBeansConfigSets(AopReferenceModelBuilderJob.java:412)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:370)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:39:07.486
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:51:06.108
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:39:07.495
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:51:06.116
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:39:17.137
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:51:07.352
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:39:17.150
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:51:07.356
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:39:30.094
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:51:17.837
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:39:30.102
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:51:17.843
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:39:51.145
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:51:49.623
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:39:51.158
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:51:49.627
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:40:10.196
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2024-12-01 01:52:15.004
-!MESSAGE Internal Error
-!STACK 1
-org.eclipse.core.runtime.CoreException: The markup in the document preceding the root element must be well-formed.
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.createCoreException(RefactoringHistoryManager.java:146)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:826)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:114)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:76)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.run(RefactoringHistoryService.java:582)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:573)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:922)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$0(RefactoringHistoryService.java:366)
-	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:876)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:865)
-	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:931)
-	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
-	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:167)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:265)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
-	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
-	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
-	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:871)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:787)
-	... 23 more
-!SUBENTRY 1 org.eclipse.ltk.core.refactoring 4 10006 2024-12-01 01:52:15.005
-!MESSAGE The markup in the document preceding the root element must be well-formed.
-!STACK 0
-org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
-	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
-	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
-	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:871)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:787)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:114)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:76)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.run(RefactoringHistoryService.java:582)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:573)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:922)
-	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$0(RefactoringHistoryService.java:366)
-	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:876)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:865)
-	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:931)
-	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
-	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:167)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:265)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:52:16.062
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesFromBeansConfigSets(AopReferenceModelBuilderJob.java:412)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:370)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:52:16.066
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:52:16.180
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:52:16.191
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:52:23.618
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:52:23.621
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:52:41.027
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:52:41.033
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:52:44.738
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:52:44.747
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:52:45.018
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:52:45.020
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesFromBeansConfigSets(AopReferenceModelBuilderJob.java:412)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:370)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:40:10.206
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:53:47.419
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:40:32.585
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:53:47.425
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:40:32.597
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:53:47.678
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:40:36.412
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.ide.eclipse.aop.core 4 0 2024-12-01 01:53:47.680
-!MESSAGE Internal Error
-!STACK 0
-java.lang.ClassFormatError: Duplicate method name "getUserInfo" with signature "(I)LUserDTO;" in class file kr/ohora/www/service/OrderServiceImpl
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
-	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
-	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
-	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:156)
-	at org.springframework.ide.eclipse.core.java.ClassUtils.loadClass(ClassUtils.java:147)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob$1.doWithActiveProjectClassLoader(AopReferenceModelBuilderJob.java:217)
-	at org.springframework.ide.eclipse.core.java.JdtUtils$DefaultProjectClassLoaderSupport.executeCallback(JdtUtils.java:984)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:208)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesFromBeansConfigSets(AopReferenceModelBuilderJob.java:412)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:370)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
-	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:40:36.422
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:57:47.916
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:40:53.606
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:57:47.923
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:40:53.613
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:59:36.940
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:41:06.789
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 01:59:36.945
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:41:06.798
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 02:04:16.074
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:41:13.263
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 02:04:16.076
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:41:13.270
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 02:04:47.849
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:41:19.093
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 02:04:47.851
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:41:19.101
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 02:04:51.036
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:41:23.130
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 02:04:51.038
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:41:23.137
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 02:05:16.269
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:41:28.726
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 02:05:16.270
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:41:28.732
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 02:05:18.291
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:41:33.786
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 02:05:18.295
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-01 19:41:33.793
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
